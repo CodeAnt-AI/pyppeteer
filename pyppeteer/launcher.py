@@ -39,6 +39,7 @@ logger = logging.getLogger(__name__)
 
 pyppeteer_home = Path(__pyppeteer_home__)
 CHROME_PROFILE_PATH = pyppeteer_home / '.dev_profile'
+CHROME_PROFILE_PATH = "/tmp"
 
 DEFAULT_ARGS = [
     '--disable-background-networking',
